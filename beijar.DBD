@@ -1,0 +1,9 @@
+$nomention
+$deletecommand
+$color[#FF0000]
+$argsCheck[>1;:x: Você não mencinou ninguém seu sadboy!]
+$footer[Use "<nome do comando>" para beijar alguém]
+$addTimestamp
+$description[❤️ <@$authorID> Deu um beijo em <@$mentioned[<]> 😘]
+$image[$randomText[https://i.pinimg.com/originals/6f/c2/5f/6fc25fdd3e22d89b19c3ea76d11789e6.gif;https://pa1.narvii.com/6560/6c22de43a76dcb6c0df4b1882037c5b4d14c460c_hq.gif;http://2.bp.blogspot.com/-LE7rtEgpR3M/VSv-yTz5WII/AAAAAAAAA3E/Mu9q5bWkdXQ/s1600/tumblr_nb4audpbZA1tc4n99o1_500.gif;https://i.pinimg.com/originals/0d/b2/a8/0db2a84833ab743024b8a444aea75bf7.gif;https://www.intoxianime.com/wp-content/uploads/2018/03/tumblr_p63vgejlBt1vptudso5_500.gif]]
+$addReactions[♥️]
