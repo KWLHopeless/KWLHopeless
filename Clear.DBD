@@ -1,0 +1,15 @@
+$nomention
+$color[#E8DFE1]
+$argsCheck[>1;❌|**Você Precisa Dizer A Quantidade De Mensagens Para Limpar!**]
+$onlyIf[$noMentionMessage>=2;❌|**Eu Só Posso Limpar De 2 À 1000 Mensagens!**]
+$onlyIf[$isNumber[$noMentionMessage]==true;❌|**Me Desculpe, Mas Eu Não Compreendi A Quantidade De Mensagens Para Limpar!**]
+$description[🗑️|Limpando!]
+$editIn[3;✔️|**$noMentionMessage Foram Limpas!**]
+$addTimestamp
+$botTyping
+$clear
+$onlyPerms[managemessages;🚨**Você Não Tem Permissão!**]
+$onlyBotPerms[managemessages;❌|Algo Deu Errado, Eu Não Tenho Permissão Suficiente!**]
+$enabled[yes;❌|**Este Comando Está Em Manutenção**] 
+$deletecommand
+$footer[Solicitado por $username]
